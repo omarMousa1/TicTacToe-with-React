@@ -42,7 +42,7 @@ const TicTacToe = () => {
         : `Next player: ${isXNext ? 'X' : 'O'}`;
 
     return (
-        <div className="flex flex-col justify-center items-center mt-28 sm:flex-col sm:items-center md:flex-row">
+        <div className="flex flex-col justify-center items-center mt-28 mb-28 sm:flex-col sm:items-center md:flex-row">
             <div className='flex flex-col items-center md:mr-10'>
                 <div className="text-2xl mb-4 border-2 p-2 rounded-lg bg-[#4C3BCF] font-medium">{status}</div>
                 <Board squares={current.squares} onClick={handleClick} />
