@@ -28,7 +28,6 @@ const TicTacToe = () => {
             const aiMove = calculateBestMove(current.squares);
             handleClick(aiMove);
         }
-        // @ts-expect-error
     }, [isXNext]);
 
     const handleClick = (i) => {
