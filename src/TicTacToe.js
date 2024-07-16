@@ -28,6 +28,7 @@ const TicTacToe = () => {
             const aiMove = calculateBestMove(current.squares);
             handleClick(aiMove);
         }
+        // eslint-disable-next-line
     }, [isXNext]);
 
     const handleClick = (i) => {
